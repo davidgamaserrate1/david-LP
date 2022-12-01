@@ -1,9 +1,17 @@
-.header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: black;
-    height: 600px;
+.header {    
+    background-color: rgb(7, 2, 31);
+    height: 40%;
     width: 100%;
     position: absolute;
+    
+}
+.logo{
+    width: 50px;
+}
+
+.imgPosition{
+    display: flex;
+    justify-content: end;
+    margin-right: 34vw;
+    margin-top: 15px;    
 }

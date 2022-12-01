@@ -1,38 +1,45 @@
-.description {
+.container{    
     display: flex;
     flex-direction: row;
-    position: relative;
-    height: 200px;
-    font-style: italic;
-    font-weight: 900;
-    font-family: 'Josefin Sans';
-    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+     
+}
+
+.description {
+    display: flex;
+    position: absolute;     
+    
+    font-family: 'Saira';
+    font-size: 18px;    
     color: white;
 }
 
-.descLeft {
-    width: 15%;
-    padding-left: 20%;
+.descLeft  {
+    margin-left: 5px;
     margin-top: 10%;
+    width: 400px;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
-.descRight {
-    width: 15%;
-    padding-left: 5%;
+.descRight  {
     margin-top: 10%;
+    width: 400px;
+    text-align: left;
 }
-
-.redFont {
-    color: red;
-    font-weight: 900;
-    font-family: 'Josefin Sans';
+  
+.redFont {     
+    
+    font-family: 'Saira';
     font-size: 25px;
-
 }
-
 .avatar {
-    margin-top: 5%;
-    margin-left: 5%;
+    max-width:500px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+    margin: 20px;
     border-radius: 50%;
 
 }
